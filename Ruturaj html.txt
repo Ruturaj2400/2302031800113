@@ -1,0 +1,374 @@
+HTML CODE FOR JUST STRUCTURE OF WEBSITE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtConnect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Artistry Unleashed</h1>
+            <p>Explore collaborative creations from diverse artists.</p>
+            <a href="#join" class="btn">Join the Community</a>
+        </div>
+    </header>
+
+    <section id="mission">
+        <h2>Our Mission</h2>
+        <p>We aim to foster creativity through collaboration, connecting artists from various backgrounds to create unique multimedia projects.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>Creative Collaboration</h3>
+                <p>Artists from all walks of life come together to share ideas and create stunning art pieces.</p>
+            </div>
+            <div class="feature">
+                <h3>Interactive Exhibitions</h3>
+                <p>Experience art in new ways through immersive installations and interactive displays that engage the audience.</p>
+            </div>
+            <div class="feature">
+                <h3>Workshops & Events</h3>
+                <p>Participate in hands-on workshops led by experienced artists, designed to inspire and educate.</p>
+            </div>
+            <div class="feature">
+                <h3>Community Engagement</h3>
+                <p>Join a vibrant community that values diversity and encourages artistic expression through collaboration.</p>
+            </div>
+            <div class="feature">
+                <h3>Artistic Resources</h3>
+                <p>Access a wealth of resources, including tools, materials, and mentorship opportunities for artists.</p>
+            </div>
+            <div class="feature">
+                <h3>Showcase Opportunities</h3>
+                <p>Exhibit your work and gain visibility through our curated showcases and community events.</p>
+            </div>
+            <div class="feature">
+                <h3>Networking</h3>
+                <p>Connect with fellow artists, curators, and art enthusiasts to expand your professional network.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="join">
+        <h2>Join Us</h2>
+        <p>Become part of a thriving artistic community that celebrates diversity and creativity.</p>
+        <p>Discover unique projects and collaborations that push the boundaries of art.</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p>By clicking <a href="http://www.facebook.com/blog">here</a>, you agree with our Terms and Conditions.</p>
+    </section>
+
+    <section id="get-involved">
+        <h2>Get Involved!</h2>
+        <div class="auth-buttons">
+            <a href="#" class="btn google">Continue with Google</a>
+            <a href="#" class="btn email">Continue with Email</a>
+        </div>
+        <p>By continuing, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>Join the Community</h3>
+                <p>Sign up to connect with artists.</p>
+            </div>
+            <div class="step">
+                <h3>Attend Workshops</h3>
+                <p>Learn and grow with hands-on experiences.</p>
+            </div>
+            <div class="step">
+                <h3>Participate in Projects</h3>
+                <p>Collaborate on exciting art projects.</p>
+            </div>
+            <div class="step">
+                <h3>Showcase Your Work</h3>
+                <p>Exhibit your art and gain exposure.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#artist">Artist</a></li>
+                <li><a href="#art-resources">Art Resources</a></li>
+                <li><a href="#networking">Networking</a></li>
+                <li><a href="#join-us">Join Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="#collective">Collective</a></li>
+                <li><a href="#workshops">Workshops</a></li>
+                <li><a href="#mentorship">Mentorship</a></li>
+                <li><a href="#stay-connected">Stay Connected</a></li>
+            </ul>
+            <ul>
+                <li><a href="#exhibitions">Exhibitions</a></li>
+                <li><a href="#art-supplies">Art Supplies</a></li>
+                <li><a href="#get-involved">Get Involved</a></li>
+                <li><a href="#explore-opportunities">Explore Opportunities</a></li>
+            </ul>
+            <ul>
+                <li><a href="#collaborations">Collaborations</a></li>
+                <li><a href="#creative-tools">Creative Tools</a></li>
+                <li><a href="#community-events">Community Events</a></li>
+                <li><a href="#inspiration">Inspiration</a></li>
+                <li><a href="#artistic-growth">Artistic Growth</a></li>
+            </ul>
+        </div>
+        <div class="newsletter">
+            <h3>Subscribe</h3>
+            <p>Join our newsletter for updates.</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <p>By subscribing, you agree to our <a href="#">Privacy Policy</a> and provide consent to receive updates from our community.</p>
+        </div>
+        <div class="legal">
+            <p>© 2024 ArtConnect, All rights reserved.</p>
+            <ul>
+                <li><a href="#privacy-policy">Privacy Policy</a></li>
+                <li><a href="#terms-of-service">Terms of Service</a></li>
+                <li><a href="#cookies-settings">Cookies Settings</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+BASIC CSS CODE 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.feature-grid, .steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature, .step {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: 300px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3, .step h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Join Section */
+#join form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#join input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#join button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#join button:hover {
+    background: #0056b3;
+}
+
+/* Get Involved Section */
+.auth-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.auth-buttons .btn {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.auth-buttons .btn.google {
+    background: #db4437;
+}
+
+.auth-buttons .btn.email {
+    background: #007BFF;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+footer .footer-links ul li {
+    margin: 10px 0;
+}
+
+footer .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+footer .newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .newsletter button:hover {
+    background: #0056b3;
+}
+
+footer .legal {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer .legal ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .legal ul li a {
+    color: #fff;
+    text-decoration: none;
+} 
